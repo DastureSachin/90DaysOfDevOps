@@ -63,7 +63,21 @@ systemctl disable nginx
 * **systemctl** : Manage services.
 * **df -h** : Check disk usage.
 * **free -h** : Check memory usage.
-
+(optional) 
+* pwd – Shows the current working directory.
+* ls – Lists files and folders in a directory.
+* cd – Changes from one directory to another.
+* ps – Displays the running processes on the system.
+* top – Shows live system performance, including CPU, memory, and running processes.
+* sudo - super root user do 
+*s udo apt-get update- use for downloaded packages
+* sudo apt-get upgrade - use for install all packages
+* grep- 
+* sudo apt update -
+* systemctl reboot-
+* uname-
+* ping-
+* rm -rf -
 ---
 
 # Easy Interview Points
