@@ -105,7 +105,6 @@ A **process** is a running instance of a program. Each process has a **PID (Proc
 
 ### Example
 
-```bash
 systemctl status nginx
 systemctl restart nginx
 
@@ -129,3 +128,4 @@ ip addr
 dig <domain>
     ↓
 curl <url>
+
