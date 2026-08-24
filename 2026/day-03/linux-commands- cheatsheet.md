@@ -105,11 +105,11 @@ A **process** is a running instance of a program. Each process has a **PID (Proc
 
 ### Example
 
-systemctl status nginx
-systemctl restart nginx
+- systemctl status nginx
+- systemctl restart nginx 
 
 
-# 🌐 Networking Troubleshooting Commands
+# 🌐 4. Networking Troubleshooting Commands
 
 | Command | Usage |
 |---|---|
