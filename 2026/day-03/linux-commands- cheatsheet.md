@@ -108,3 +108,24 @@ A **process** is a running instance of a program. Each process has a **PID (Proc
 ```bash
 systemctl status nginx
 systemctl restart nginx
+
+
+# 🌐 Networking Troubleshooting Commands
+
+| Command | Usage |
+|---|---|
+| `ping <host>` | Check network connectivity |
+| `ip addr` | Display IP address and network interfaces |
+| `curl <url>` | Test a website or API response |
+| `dig <domain>` | Perform a DNS lookup |
+
+### Simple Troubleshooting Flow
+
+```text
+ping <host>
+    ↓
+ip addr
+    ↓
+dig <domain>
+    ↓
+curl <url>
