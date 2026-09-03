@@ -1,20 +1,5 @@
 # Day 19 – Shell Scripting Project: Log Rotation, Backup & Crontab
 
----
-
-## 📚 Table of Contents
-
-1. [Concepts Overview](#concepts-overview)
-2. [Task 1 – Log Rotation Script](#task-1--log-rotation-script)
-3. [Task 2 – Server Backup Script](#task-2--server-backup-script)
-4. [Task 3 – Crontab Scheduling](#task-3--crontab-scheduling)
-5. [Task 4 – Combined Maintenance Script](#task-4--combined-maintenance-script)
-6. [Sample Outputs](#sample-outputs)
-7. [Key Takeaways](#key-takeaways)
-8. [Summary](#summary)
-9. [Quick Reference / Cheat Sheet](#quick-reference--cheat-sheet)
-
----
 
 ## Concepts Overview
 
