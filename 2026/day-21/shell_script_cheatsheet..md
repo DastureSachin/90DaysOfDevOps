@@ -1,10 +1,10 @@
-# 🐚 Shell Scripting Cheat Sheet
+#  Shell Scripting Cheat Sheet
 
 > Simple Shell/Bash reference for Linux and DevOps beginners.
 
 ---
 
-# 📌 1. Shell Script Basics
+#  1. Shell Script Basics
 
 ## What is Shell Scripting?
 
@@ -72,7 +72,7 @@ bash script.sh → Run using Bash
 
 ---
 
-# 💬 2. Comments
+#  2. Comments
 
 Comments are notes for humans. Linux does not execute them.
 
@@ -84,7 +84,7 @@ echo "Hello"  # This is an inline comment
 
 ---
 
-# 📦 3. Variables
+# 3. Variables
 
 A variable stores information.
 
@@ -159,7 +159,7 @@ Single quotes treat everything as normal text.
 
 ---
 
-# ⌨️ 4. Taking User Input
+# 4. Taking User Input
 
 Use `read` to take input from the user.
 
@@ -185,7 +185,7 @@ Hello Sachin
 
 ---
 
-# 🎯 5. Command-Line Arguments
+#  5. Command-Line Arguments
 
 Arguments are values given when starting a script.
 
@@ -231,7 +231,7 @@ $# → 2
 
 ---
 
-# 🔀 6. Conditions
+#  6. Conditions
 
 Conditions allow a script to make decisions.
 
@@ -279,7 +279,7 @@ fi
 
 ---
 
-# 🔤 7. String Comparisons
+#  7. String Comparisons
 
 Used to compare text.
 
@@ -314,7 +314,7 @@ Not empty:
 
 ---
 
-# 🔢 8. Number Comparisons
+# 8. Number Comparisons
 
 Use these for numbers.
 
@@ -342,7 +342,7 @@ fi
 
 ---
 
-# 📁 9. File Checking
+#  9. File Checking
 
 Bash can check whether a file or directory exists.
 
@@ -374,7 +374,7 @@ fi
 
 ---
 
-# 🔗 10. Logical Operators
+# 10. Logical Operators
 
 ## AND `&&`
 
@@ -416,7 +416,7 @@ fi
 
 ---
 
-# 🔄 11. case Statement
+#  11. case Statement
 
 `case` is useful when you have multiple choices.
 
@@ -445,7 +445,7 @@ Think:
 
 ---
 
-# 🔁 12. for Loop
+#  12. for Loop
 
 A loop repeats something.
 
@@ -487,7 +487,7 @@ done
 
 ---
 
-# 🔄 13. while Loop
+#  13. while Loop
 
 `while` runs **while a condition is true**.
 
@@ -518,7 +518,7 @@ while → Continue while condition is TRUE
 
 ---
 
-# 🔄 14. until Loop
+# 14. until Loop
 
 `until` is almost the opposite of `while`.
 
@@ -540,7 +540,7 @@ until  → Run until TRUE
 
 ---
 
-# 🛑 15. break and continue
+# 15. break and continue
 
 ## break
 
@@ -599,7 +599,7 @@ continue → Skip
 
 ---
 
-# 📂 16. Loop Through Files
+# 16. Loop Through Files
 
 Useful in DevOps when processing logs.
 
@@ -613,7 +613,7 @@ This processes every `.log` file.
 
 ---
 
-# 📖 17. Read a File Line by Line
+#  17. Read a File Line by Line
 
 ```bash
 while read -r line; do
@@ -625,7 +625,7 @@ This reads `file.txt` one line at a time.
 
 ---
 
-# 🧩 18. Functions
+#  18. Functions
 
 A function is a reusable block of code.
 
@@ -676,7 +676,7 @@ $2 → Second function argument
 
 ---
 
-# 📤 19. return vs echo
+#  19. return vs echo
 
 ### `return`
 
@@ -732,7 +732,7 @@ echo   → Actual output
 
 ---
 
-# 🔒 20. local Variables
+#  20. local Variables
 
 `local` keeps a variable inside a function.
 
@@ -749,7 +749,7 @@ This prevents the function variable from affecting the rest of the script.
 
 ---
 
-# 🔎 21. grep
+#  21. grep
 
 `grep` is used to **search text**.
 
@@ -799,7 +799,7 @@ Show everything except `debug`.
 
 ---
 
-# 📊 22. awk
+#  22. awk
 
 `awk` is very useful for working with **columns**.
 
@@ -837,7 +837,7 @@ awk '{print $1, $3}' students.txt
 
 ---
 
-# ✏️ 23. sed
+#  23. sed
 
 `sed` is mainly used to **replace or edit text**.
 
@@ -871,7 +871,7 @@ sed '3d' file.txt
 
 ---
 
-# ✂️ 24. cut
+#  24. cut
 
 `cut` extracts specific columns.
 
@@ -899,7 +899,7 @@ DevOps
 
 ---
 
-# 🔢 25. sort
+#  25. sort
 
 Sort lines.
 
@@ -931,7 +931,7 @@ sort -u names.txt
 
 ---
 
-# ♻️ 26. uniq
+#  26. uniq
 
 Remove repeated lines.
 
@@ -957,7 +957,7 @@ sort file.txt | uniq
 
 ---
 
-# 🔤 27. tr
+#  27. tr
 
 `tr` changes or removes characters.
 
@@ -997,7 +997,7 @@ echo "hello###" | tr -d '#'
 
 ---
 
-# 📏 28. wc
+#  28. wc
 
 Count lines, words, or characters.
 
@@ -1025,7 +1025,7 @@ Count bytes.
 
 ---
 
-# 👀 29. head and tail
+# 29. head and tail
 
 Show the beginning:
 
@@ -1061,7 +1061,7 @@ tail -f app.log
 
 ---
 
-# 🛠️ 30. Useful DevOps One-Liners
+# 30. Useful DevOps One-Liners
 
 ## Find Files
 
@@ -1143,7 +1143,7 @@ tar -czf "backup_$(date +%Y%m%d).tar.gz" myfolder/
 
 ---
 
-# 🚨 31. Error Handling
+#  31. Error Handling
 
 ## Exit Code `$?`
 
@@ -1189,7 +1189,7 @@ exit 1 → Error
 
 ---
 
-# 🛡️ 32. set -e
+#  32. set -e
 
 Stop the script when a command fails.
 
@@ -1207,7 +1207,7 @@ If `cp` fails, the script stops.
 
 ---
 
-# 🛡️ 33. set -u
+#  33. set -u
 
 Detect variables that were never defined.
 
@@ -1223,7 +1223,7 @@ If `NAME` does not exist, Bash reports an error.
 
 ---
 
-# 🛡️ 34. pipefail
+#  34. pipefail
 
 Normally, a pipeline may hide an earlier failure.
 
@@ -1237,7 +1237,7 @@ This makes the pipeline fail if any important command fails.
 
 ---
 
-# 🐛 35. set -x
+# 35. set -x
 
 Used for debugging.
 
@@ -1263,7 +1263,7 @@ set -x → Debug/trace commands
 
 ---
 
-# 🧹 36. trap
+#  36. trap
 
 `trap` is useful for cleanup.
 
@@ -1288,7 +1288,7 @@ Useful for:
 
 ---
 
-# ⭐ 37. Most Important Commands to Remember
+#  37. Most Important Commands to Remember
 
 If you forget everything else, remember these:
 
