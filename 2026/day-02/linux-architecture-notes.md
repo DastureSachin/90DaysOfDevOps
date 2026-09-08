@@ -72,12 +72,12 @@ systemctl disable nginx
 * sudo - super root user do 
 *s udo apt-get update- use for downloaded packages
 * sudo apt-get upgrade - use for install all packages
-* grep- 
-* sudo apt update -
-* systemctl reboot-
-* uname-
-* ping-
-* rm -rf -
+* grep: Search text or patterns inside files or command output.
+*sudo apt update: Refresh package list on Debian/Ubuntu systems to see available updates.
+*systemctl reboot: Reboot the system using systemd.
+*uname: Show system information like kernel version and architecture.
+*ping: Test network connectivity by sending ICMP echo requests to a host.
+*rm -rf: Forcefully and recursively delete files/directories (dangerous; be careful!).
 ---
 
 # Easy Interview Points
