@@ -237,13 +237,13 @@ journalctl -u ssh -n 30 --no-pager
 **Example Output:**
 ```
 Feb 03 08:15:22 sshd[768]: Server listening on 0.0.0.0 port 22.
-Feb 03 10:23:45 sshd[3456]: Accepted publickey for nandan from 192.168.1.105
+Feb 03 10:23:45 sshd[3456]: Accepted publickey for sachin from 192.168.1.105
 Feb 03 12:15:33 sshd[4123]: Failed password for invalid user admin from 103.45.67.89
 Feb 03 12:15:38 sshd[4156]: Failed password for invalid user root from 103.45.67.89
 ```
 
 **What I Observed in above example output:**
-- ✅ Legit login: `nandan` from local IP `192.168.1.105`
+- ✅ Legit login: `sachin` from local IP `192.168.1.105`
 - ⚠️ Brute-force attempt: multiple failed logins from `103.45.67.89` trying `admin`, `root`
 - Action: Consider setting up `fail2ban` to block repeated failures
 
@@ -284,7 +284,7 @@ Reads the traditional auth log file - tracks SSH logins, `sudo` usage, and PAM e
 ```
 Feb  3 10:23:45 sshd[3456]: Accepted publickey for nandan from 192.168.1.105
 Feb  3 12:15:33 sshd[4123]: Failed password for invalid user admin from 103.45.67.89
-Feb  3 14:28:33 sudo: nandan : USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Feb  3 14:28:33 sudo: sachin : USER=root ; COMMAND=/usr/bin/systemctl status ssh
 ```
 
 **What I Observed in above example output:**
