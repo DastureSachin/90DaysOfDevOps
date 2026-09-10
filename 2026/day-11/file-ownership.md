@@ -102,13 +102,13 @@ sudo useradd -m intern
 # Step 4: Change owner(user) to intern
 sudo chown intern devops-file.txt
 ls -l devops-file.txt
-# Output: -rw-r--r-- 1 intern nandan ... devops-file.txt
+# Output: -rw-r--r-- 1 intern sham ... devops-file.txt
 
 # Step 5: Create user rishima and change owner
 sudo useradd -m rishima
 sudo chown rishima devops-file.txt
 ls -l devops-file.txt
-# Output: -rw-r--r-- 1 rishima nandan ... devops-file.txt
+# Output: -rw-r--r-- 1 rishima sham ... devops-file.txt
 ```
 
 ### Ownership Change Log
