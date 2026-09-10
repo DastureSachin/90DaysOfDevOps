@@ -38,7 +38,7 @@ In Linux, every file and directory has **two ownership attributes**:
 ### Owner vs Group - What's the Difference?
 
 ```
--rw-r--r-- 1 nandan nandan 0 May 25 10:25 notes.txt
+-rw-r--r-- 1 sachin sachin 0 May 25 10:25 notes.txt
               ^^^^^^ ^^^^^^
               owner  group
 ```
@@ -61,14 +61,14 @@ ls -l ~
 ### Expected Output
 
 ```
--rw-r--r-- 1 nandan nandan    0 May 25 10:25 notes.txt
-drwxr-xr-x 2 nandan nandan 4096 May 25 10:27 project/
+-rw-r--r-- 1 sachin sachin   0 May 25 10:25 notes.txt
+drwxr-xr-x 2 sachin sachin 4096 May 25 10:27 project/
 ```
 
 ### Output Breakdown
 
 ```
--rw-r--r--   1   nandan   nandan   0   May 25 10:25   notes.txt
+-rw-r--r--   1   sachin   sachin   0   May 25 10:25   notes.txt
 │            │   │        │
 │            │   │        └── Group owner
 │            │   └─────────── User owner
