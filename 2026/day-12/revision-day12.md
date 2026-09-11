@@ -30,7 +30,7 @@ date
 # Output: Mon May 25 10:15:32 IST 2026
 
 uname -a
-# Output: Linux nandan-virtualbox 5.15.0-50-generic #56-Ubuntu SMP x86_64 GNU/Linux
+# Output: Linux sachin-virtualbox 5.15.0-50-generic #56-Ubuntu SMP x86_64 GNU/Linux
 
 uptime
 # Output: 10:15:32 up 1:42, 1 user, load average: 0.10, 0.08, 0.05
@@ -94,15 +94,15 @@ ls -l notes.txt
 mkdir -p devops-practice/logs/app
 ls -lR devops-practice/
 # devops-practice/:
-# drwxr-xr-x 3 nandan nandan 4096 May 25 10:21 logs
+# drwxr-xr-x 3  sachin sachin 4096 May 25 10:21 logs
 # devops-practice/logs:
-# drwxr-xr-x 2 nandan nandan 4096 May 25 10:21 app
+# drwxr-xr-x 2 sachin  sachin 4096 May 25 10:21 app
 
 # Copy a file (Day 08)
 cp notes.txt notes-backup.txt
 ls -l notes*.txt
-# -rw------- 1 nandan nandan 45 May 25 10:20 notes.txt
-# -rw------- 1 nandan nandan 45 May 25 10:22 notes-backup.txt
+# -rw------- 1  sachin sachin 45 May 25 10:20 notes.txt
+# -rw------- 1 sachin sachin 45 May 25 10:22 notes-backup.txt
 ```
 
 ---
@@ -171,14 +171,14 @@ journalctl -u <service> --since today | tail -20
 
 ```bash
 # Change owner and group
-sudo chown nandan:nandan notes.txt
+sudo chown sachin:sachin notes.txt
 
 # Set permissions - owner read/write, group read-only, others none
 chmod 640 notes.txt
 
 # Verify - one command confirms both
 ls -l notes.txt
-# -rw-r----- 1 nandan nandan 45 May 25 10:30 notes.txt
+# -rw-r----- 1 sachin sachin 45 May 25 10:30 notes.txt
 ```
 
 > ⚠️ **Don't use `chmod 777`** - giving everyone read/write/execute is almost never the right fix and is a security risk.
