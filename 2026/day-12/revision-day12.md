@@ -69,8 +69,8 @@ sudo systemctl status ssh
 
 # Recent SSH logs
 journalctl -u ssh --since today | tail -5
-# May 25 10:00:11 nandan sshd[892]: Server listening on 0.0.0.0 port 22.
-# May 25 10:12:44 nandan sshd[1103]: Accepted publickey for nandan from 192.168.1.5
+# May 25 10:00:11 sachin sshd[892]: Server listening on 0.0.0.0 port 22.
+# May 25 10:12:44 sachin sshd[1103]: Accepted publickey for sachin from 192.168.1.5
 ```
 
 > **Observed today:** SSH service was active and running. `journalctl` showed a successful login - useful to confirm auth is working as expected.
@@ -88,7 +88,7 @@ cat notes.txt
 # Restrict permissions - owner read/write only (Day 10)
 chmod 600 notes.txt
 ls -l notes.txt
-# -rw------- 1 nandan nandan 45 May 25 10:20 notes.txt
+# -rw------- 1 sachin sachin 45 May 25 10:20 notes.txt
 
 # Create a nested directory structure (Day 06)
 mkdir -p devops-practice/logs/app
