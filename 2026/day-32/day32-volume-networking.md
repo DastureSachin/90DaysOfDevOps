@@ -63,7 +63,7 @@ Expected data:
 +----+--------+
 | id | name   |
 +----+--------+
-|  1 | Nandan |
+|  1 | Sachin |
 |  2 | Docker |
 |  3 | DevOps |
 +----+--------+
