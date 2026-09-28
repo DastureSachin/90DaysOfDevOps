@@ -7,6 +7,10 @@ A simple Dockerized full-stack project to track job applications for DevOps role
 - PostgreSQL database for storing job records
 - Docker Compose setup for local orchestration
 
+## Dashboard Preview
+
+![DevOps Job Tracker dashboard preview](./dashboard-preview.svg)
+
 ## Project Structure
 
 ```text
@@ -31,6 +35,7 @@ job-tracker/
 │       ├── App.css
 │       ├── App.jsx
 │       └── main.jsx
+├── dashboard-preview.svg
 └── README.md
 ```
 
