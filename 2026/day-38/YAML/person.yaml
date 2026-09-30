@@ -9,5 +9,6 @@ tools:
   - Docker
   - AWS
   - GitHub Actions 
+  - Kubernetes
 
 hobbies: [Learning, Coding, Tech Events]
