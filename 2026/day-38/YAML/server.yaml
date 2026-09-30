@@ -9,3 +9,13 @@ database:
   credentials:
     user: admin
     password: secret123
+
+startup_script: |
+  echo "Starting server"
+  echo "Installing dependencies"
+  echo "Starting application"
+
+ startup_message: >
+  Server is starting
+  and application will
+  be deployed soon.
