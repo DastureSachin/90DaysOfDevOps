@@ -2,3 +2,12 @@ name: Sachin
 role: DevOps learner
 experence_years: 0
 learning: True 
+
+tools:
+  - Linux 
+  - Git
+  - Docker
+  - AWS
+  - GitHub Actions 
+
+hobbies: [Learning, Coding, Tech Events]
