@@ -15,7 +15,3 @@ startup_script: |
   echo "Installing dependencies"
   echo "Starting application"
 
- startup_message: >
-  Server is starting
-  and application will
-  be deployed soon.
