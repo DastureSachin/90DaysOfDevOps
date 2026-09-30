@@ -1,0 +1,16 @@
+server:
+  name: web-server
+  ip: 192.168.1.10
+  port: 8080
+
+database:
+  host: localhost
+  name: devops_db
+  credentials:
+    user: admin
+    password: secret123
+
+ startup_message: >
+  Server is starting
+  and application will
+  be deployed soon.
