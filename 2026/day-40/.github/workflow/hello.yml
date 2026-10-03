@@ -1,0 +1,26 @@
+name: Hello GitHub Actions
+
+on: push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Say Hello
+        run: echo "Hello from GitHub Actions! Day 40 🚀"
+
+      - name: Show date and time
+        run: date
+
+      - name: Show branch name
+        run: echo "Branch: ${{ github.ref_name }}"
+
+      - name: List repository files
+        run: ls -la
+
+      - name: Show operating system
+        run: uname -a
