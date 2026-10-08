@@ -1,0 +1,24 @@
+name: Day 44 - Dependency Cache
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cache-demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python with pip cache
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Show installed packages
+        run: pip list
