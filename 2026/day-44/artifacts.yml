@@ -1,0 +1,24 @@
+name: Day 44 - Artifacts
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artifact-demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate test report
+        run: |
+          echo "Day 44 Test Report" > test-report.txt
+          echo "Tests completed successfully." >> test-report.txt
+          echo "Status: PASS" >> test-report.txt
+
+      - name: Display report
+        run: cat test-report.txt
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        with:
+          name: day-44-test-report
+          path: test-report.txt
