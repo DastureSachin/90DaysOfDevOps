@@ -709,18 +709,6 @@ It lists Pods across all namespaces.
 **Issue faced and solution:**
 - 
 
-## Screenshots
-
-Save your actual screenshots in this directory and update the image paths if needed.
-
-![kubectl get nodes showing cluster readiness](day-50-kubectl-get-nodes.png)
-
-*Screenshot 1: Actual kubectl get nodes output.*
-
-![Pods in kube-system namespace](day-50-kube-system-pods.png)
-
-*Screenshot 2: Actual kubectl get pods -n kube-system output.*
-
 ## Official References
 
 - Kubernetes Overview: https://kubernetes.io/docs/concepts/overview/
